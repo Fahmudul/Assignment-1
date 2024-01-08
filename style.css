@@ -214,8 +214,6 @@
     line-height: 70px;
     text-align: center;
     
-
-
 }
 
 .button button{
@@ -231,4 +229,147 @@
     border:none;
     border-radius: 8px;
     padding: 16px 32px;
+}
+
+
+/* Offer section */
+
+.offer-section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer-container{
+    width: 1300px;
+    height: 463px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.offer-description{
+    width: 418px;
+    
+}
+
+.offer-description h3{
+    width: 208px;
+    height: 30;
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.offer-description h1{
+    width: 330px;
+    height: 62px;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: -23px;
+}
+
+.offer-description p{
+    width: 393px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 32px;
+}
+
+.offer-image{
+    width: 420px;
+    height: 420px;
+    border: 14px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.year_image{
+    width: 418px;
+    position: relative;
+
+    right: -100px;
+}
+
+.year_image h1{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.year_image p{
+    width: 276px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 20px;
+}
+
+.year_image img{
+    margin-top: 40px;
+}
+
+/* Discount section */
+
+.discount-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+
+}
+
+.discount-description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.discount-description h3{
+    width: 270px;
+    height: 30px;
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.discount-description h1{
+    width: 680px;
+    height: 95px;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 20px;
+}
+.discount-description p{
+    width: 1070px;
+    height: 100px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 35px;
+    margin-top: 30px;
+}
+
+.discount-description h1 span{
+    color: #f00;
 }
