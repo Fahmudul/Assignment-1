@@ -483,8 +483,16 @@
 }
 
 .item-1{
+    border-radius: 16px;
     width: 424px;
     height: 450px;
+    transition: all 0.5s;
+
+
+}
+.item-1:hover{
+    transform: scale(1.03);
+    box-shadow: 4px 4px 10px rgb(79, 68, 68);
 }
 
 .subscribe-section{
